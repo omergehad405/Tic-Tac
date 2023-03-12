@@ -34,7 +34,9 @@ span{
     font-size: 50px;
 }
 
-.square:hover {
+@media (min-width: 768px) {
+   .square:hover {
     background: #000;
     cursor: pointer;
+  }
 }

@@ -31,7 +31,7 @@ function winner () {
         end(1,4,7);
     }else if (squares[2] == squares[5] && squares[5] == squares[8] && squares[2] != "") {
         end(2,4,8);
-    }else if (squares[3] == squares[6] && squares[6] == squares[8] && squares[3] != "") {
+    }else if (squares[3] == squares[6] && squares[6] == squares[9] && squares[3] != "") {
         end(3,6,8);
     }
 

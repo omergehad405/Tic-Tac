@@ -30,9 +30,9 @@ function winner () {
     else if (squares[1] == squares[4] && squares[4] == squares[7] && squares[1] != "") {
         end(1,4,7);
     }else if (squares[2] == squares[5] && squares[5] == squares[8] && squares[2] != "") {
-        end(2,4,8);
+        end(2,5,8);
     }else if (squares[3] == squares[6] && squares[6] == squares[9] && squares[3] != "") {
-        end(3,6,8);
+        end(3,6,9);
     }
 
     else if (squares[1] == squares[5] && squares[5] == squares[9] && squares[1] != "") {
